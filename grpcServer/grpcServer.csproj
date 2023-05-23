@@ -12,7 +12,4 @@
 	<ItemGroup>
 		<Protobuf Include="Protos/fileTransport.proto" GrpcServices="Server" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="wwwroot\files\" />
-	</ItemGroup>
 </Project>

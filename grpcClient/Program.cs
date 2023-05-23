@@ -5,7 +5,7 @@ using grpcFileTransportClient;
 var channel = GrpcChannel.ForAddress("https://localhost:7062");
 var client = new FileService.FileServiceClient(channel);
 
-string file = @"C:\\Users\\burak\\Videos\\2023-05-06 21-56-20.mkv";
+string file = @"C:\Users\Burak\Desktop\2023-05-23 09-41-04.mkv";
 
 FileStream fileStream = new(file, FileMode.Open);
 
